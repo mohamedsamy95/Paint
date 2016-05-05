@@ -1,0 +1,6 @@
+button.setStyle("-fx-background-image: url('/testing/background.jpg')");
+
+Scene scene = new Scene(400, 300);
+scene.setCursor(new ImageCursor(image,
+                                image.getWidth() / 2,
+                                image.getHeight() /2));
